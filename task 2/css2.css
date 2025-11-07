@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.seasons-list {
+    list-style-image: url('arrow-right_16.png');
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px; 
+}
+
+.seasons-list > li {
+     padding-bottom: 10px; 
+}
+
+.months-list {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 8px;
+    padding-left: 40px; 
+}
+
+.months-list li {
+    padding: 3px 0;
+}
+
+
+#winter {
+    list-style-image: url('snowflake_16.png');
+}
+
+#spring {
+    list-style-image: url('leaf_g_16.png');
+}
+
+#summer {
+    list-style-image: url('sun_16.png');
+}
+
+#autumn {
+    list-style-image: url('leaf_y_16.png');
+}

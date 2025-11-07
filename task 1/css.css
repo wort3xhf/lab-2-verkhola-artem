@@ -1,0 +1,33 @@
+body {
+    background-color: #fcebeb; 
+    padding: 20px;
+}
+
+.fruit-list {
+    list-style: none; 
+    padding: 15px; 
+    margin: 0;
+    background-color: #f7cccc; 
+    border-radius: 8px;
+}
+
+.fruit-list li {
+    background-color: #e89999; 
+    margin-bottom: 10px; 
+    padding: 8px; 
+    border-radius: 5px;
+}
+
+.fruit-list li:last-child {
+    margin-bottom: 0;
+}
+
+.fruit-list li span {
+    display: inline-block; 
+    background-color: #c96464; 
+    color: white;
+    padding: 12px 20px;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}

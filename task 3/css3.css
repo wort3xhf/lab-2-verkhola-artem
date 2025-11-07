@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.todo-container {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-list li {
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd; 
+}
+
+.todo-list li:nth-child(odd) {
+    background-color: #e6f2ff; 
+}
+
+.todo-list li:nth-child(even) {
+    background-color: #d0e6ff; 
+}
+
+.checkbox {
+    font-size: 20px; 
+    margin-right: 12px;
+    cursor: pointer; 
+}
+
+.text {
+    flex-grow: 1; 
+}
+
+.delete {
+    color: #ff4d4d; 
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.todo-list li.checked {
+    background-color: #f0f0f0; 
+}
+
+.todo-list li.checked .text {
+    text-decoration: line-through; 
+    color: #888;
+}
